@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/SlidingWindow" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Two_Pointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/01_Arrays_Hash" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_01_Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_02_LinkedList" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_03_Recursion" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_04_Sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_05_Trees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_06_Backtracking" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_07_Heap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_08_Hashing" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_09 Graphs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_10 DynamicProgramming" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/blind75_11 Bit Manipulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/practice" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
