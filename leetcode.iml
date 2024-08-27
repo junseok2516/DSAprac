@@ -19,6 +19,7 @@
       <sourceFolder url="file://$MODULE_DIR$/blind75_10 DynamicProgramming" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/blind75_11 Bit Manipulation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/practice" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TopInterview150" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
