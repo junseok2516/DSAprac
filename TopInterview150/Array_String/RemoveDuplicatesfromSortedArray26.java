@@ -1,6 +1,4 @@
-package MergeSortedArray;
-
-import java.util.Arrays;
+package Array_String;
 
 public class RemoveDuplicatesfromSortedArray26 {
     // though too much about switching duplicated one (but instead turns out not dupulicated one move)

@@ -1,7 +1,6 @@
-package MergeSortedArray;
+package Array_String;
 
 import java.util.Arrays;
-import java.util.PriorityQueue;
 
 public class MergeSortedArray88 {
     // did not read carefully that the arr must be done in-place sorting

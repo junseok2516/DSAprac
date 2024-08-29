@@ -1,4 +1,4 @@
-package MergeSortedArray;
+package Array_String;
 
 public class RemoveElement27 {
     // do not try to write down the code right away as this has been solved before
