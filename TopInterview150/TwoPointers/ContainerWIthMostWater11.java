@@ -2,19 +2,20 @@ package TwoPointers;
 
 public class ContainerWIthMostWater11 {
     static int maxArea(int[] height) {
-        int currContainer = Integer.MIN_VALUE;
+        // 4ms  88.60% 5m39s O(n0
+        // moving the smaller element of two pointers so the size of dam can have larger
+        int dam = 0;
         int p1 = 0, p2 = height.length - 1;
-        while (p1 < p2) {
-            currContainer = Math.max(Math.min(height[p1], height[p2]) * (p2-p1), currContainer);
-            if (height[p1] < height[p2]) {
-                p1++;
-            } else if (height[p1] > height[p2]) {
+        for (int i = 0; i < height.length; i++) {
+            if (height[p1] > height[p2]) {
+                dam = Math.max(dam, height[p2] * (p2 - p1));
                 p2--;
             } else {
-                p1++; p2--;
+                dam = Math.max(dam, height[p1] * (p2 - p1));
+                p1++;
             }
         }
-        return currContainer;
+        return dam;
     }
 
     public static void main(String[] args) {

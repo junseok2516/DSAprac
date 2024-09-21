@@ -2,15 +2,28 @@ package TwoPointers;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSum2InputArrayIsSorted167 {
     static int[] twoSum(int[] numbers, int target) {
-        HashMap<Integer, Integer> map = new HashMap<>();
+        // 6ms 16.92% O(n)
+        // key is comparing target - numbers[i] whether it is in the hashmap
+//        HashMap<Integer, Integer> map = new HashMap<>();
+//        for (int i = 0; i < numbers.length; i++) {
+//            if (map.containsKey(target-numbers[i])) {
+//                return new int[]{map.get(target - numbers[i])+1, i + 1};
+//            } else {
+//                map.put(numbers[i], i);
+//            }
+//        }
+//        return new int[]{};
+
+        Map<Integer, Integer> m = new HashMap<>();
         for (int i = 0; i < numbers.length; i++) {
-            if (map.containsKey(target-numbers[i])) {
-                return new int[]{map.get(target - numbers[i])+1, i + 1};
+            if (m.containsKey(target-numbers[i])) {
+                return new int[]{i+1, m.get(target-numbers[i])};
             } else {
-                map.put(numbers[i], i);
+                m.put(numbers[i], i+1);
             }
         }
         return new int[]{};
